@@ -10,7 +10,7 @@ function Contatore (){
 
     return (
         <div>
-            <p>contatore: {contatore}</p>
+            <p>contatore positivo/negativo: {contatore}</p>
             <button onClick={()=>setContatore(contatore +1)}>Incrementa</button>
             <button onClick={()=>setContatore(contatore -1)}>Decrementa</button>
             <button onClick={()=>setContatore(0)}>Reset</button>
